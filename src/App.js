@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1>sidebar</h1>
+      <Sidebar />
       <Routes>
         <Route path='/' element={<h1>home</h1>} />
         <Route path='/about' element={<h1>about</h1>} />
@@ -17,6 +17,7 @@ function App() {
 
         <Route path='*' element={<h1>error</h1>} />
       </Routes>
+      <Footer />
     </>
   )
 }
